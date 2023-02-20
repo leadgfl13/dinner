@@ -1,0 +1,91 @@
+
+body{
+    margin:0px;
+    display:flex;
+    height:100%;
+    height:100vh;
+}
+
+.body{
+    display:flex;
+    flex-direction:column;
+    background-color:rgb(252, 210, 210);
+    flex:1;
+    margin:0px;
+    height:100vh;
+}
+
+.top{
+    display:flex;
+    flex:1;
+    justify-content:center;
+    align-items:center;
+    font-size:42px;
+    font-weight:400;
+    font-style:italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.middle{
+    display:flex;
+    flex-direction:column;
+    flex:6;
+    background-color:white;
+    justify-content:space-around;
+}
+
+.starter{
+    display:flex;
+    flex:1;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    border-bottom:groove 5px;
+    border-top:solid 5px;
+
+}
+
+.main{
+    display:flex;
+    flex:1;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction:column;
+    border-bottom:groove 5px;
+
+}
+
+.desert{
+    display:flex;
+    flex:1;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    border-bottom:groove 5px;
+}
+
+
+
+.bottom{
+    display:flex;
+    flex:1;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding-top:20px;
+}
+
+.Label{
+    font-size:32px;
+    text-decoration:underline;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    gap:80px;
+
+}
+
+p{
+    font-size:20px;
+    font-weight:400;
+    font-family:'Times New Roman', Times, serif;
+    font-style:italic;
+}
